@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+
+.flex-container{
+  display: flex;
+}
+
+.centercontent{
+	justify-content: center;
+  	align-items: center;
+}
+
+.column{
+	flex-direction: column;
+}
+
+.row{
+	flex-direction: row;
+}
+
+.flexStart {
+    justify-content: flex-start;
+}
+.flexCenter {
+    justify-content: center;
+}
+.flexEnd {
+    justify-content: flex-end;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav  a:link, a:active, a:visited {
+	color:#000;
+    text-decoration: none;
+    display: inline;
+    padding: 0 1em;
+	font-family: sans-serif;
+  	font-size: 20px;
+	font-weight: bold;
+}
+
+.nav a:hover, a:active{
+	color:#C00;
+}
+
+.background{
+  background-image:url(arizona.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 1350px;
+  background-attachment: fixed;
+}
+
+.background2{
+  background-image:url(arizona2.jpg);
+  background-position:center center;																																																																																											background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  width: 1350px;
+  background-attachment: fixed;
+}
+
+.heading{
+  font-family: sans-serif;
+  font-size: 40px;
+  color:aliceblue;
+  font-weight: bold;
+  word-spacing: 7px;
+  text-transform:lowercase;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  line-height: 320px;
+}
+
+.button{
+  font-family: sans-serif;
+  font-size: 15px;
+  color:white;
+  width: 150px;
+  height: 25px;
+  background-color:black;
+  line-height: 80px;
+  text-align:center;
+  padding: 10px; 
+  border-radius: 5px;
+  text-decoration:none;
+}
+  
+.button:hover{
+  	background-color:#F66;
+}
+
+.content{
+  font-family: sans-serif;
+  font-size: 17px;
+  color:#333;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 10px;
+  padding: 20px;
+  width: 70%
+}
+
+.contentred{
+  font-family: sans-serif;
+  font-size: 17px;
+  color:white;
+  background-color:#5E0A00;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding-left:15%;
+  padding-right:15%;
+}
+
+h1{
+  font-family: sans-serif;
+  font-size: 30px;
+  color:#333;
+  text-align: center;
+  
+}
