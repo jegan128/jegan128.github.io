@@ -120,7 +120,7 @@ img{
 }
 
 
-  @media screen and (min-width: 500px) {
+  @media screen and (max-width: 500px) {
    	.form-row {
     	flex-direction: column;
 		
@@ -129,12 +129,12 @@ img{
 	   width: 100%;
   }
   }
- @media screen and (mi-width: 992px) {
+ @media screen and (max-width: 992px) {
    .wrapper {
 	   width: 50%;
   }
   }
- @media screen and (min-width: 1200px) {
+ @media screen and (max-width: 1200px) {
    .wrapper {
 	   width: 50%;
   }
