@@ -132,7 +132,7 @@ img{
    	.form-row > input {
     	flex: 5;  
    }
-   .wrapper {
+   #form {
 	   width: 50%;
    		padding: 30px;
   }
