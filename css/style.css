@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, h2{
+	margin: 0;
+}
+
+
+.card-list-wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card{
+	margin: 10px;
+}
+
+
+img{
+	width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+	.card-list-wrapper{
+		flex-direction: row;
+		flex-wrap: wrap;
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	.card{
+		width: 350px;
+	}
+
+	.banner{
+		display: block;
+	}
+}

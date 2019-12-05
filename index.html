@@ -1,10 +1,129 @@
-<!DOCTYPE html>
-<html>
-	<head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style2.css" />
+<!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Interiors</title>
+</head>
 
-	</head>
-	<body>
-		Hello World!<br/>
-		<a href="page2.html">Click Here for Page 2</a>
-	</body>
+<body>
+	<!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="#home" class="active">My Favourite Interiors</a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        
+		<div class="card-list-wrapper">
+		<div class="card">
+			<img src="images/image3.jpg" />
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+				and
+				scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+				leap
+				into electronic typesetting, remaining essentially unchanged.
+			</p>
+		</div>
+		<div class="card">
+			<img src="images/image1.jpg" />
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+				and
+				scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+				leap
+				into electronic typesetting, remaining essentially unchanged.
+			</p>
+		</div>
+		<div class="card">
+			<img src="images/image2.jpg" />
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+				and
+				scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+				leap
+				into electronic typesetting, remaining essentially unchanged.
+			</p>
+		</div>
+        <div class="card">
+			<img src="images/image5.jpg" />
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+				and
+				scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+				leap
+				into electronic typesetting, remaining essentially unchanged.
+			</p>
+		</div>
+		<div class="card">
+			<img src="images/image3.jpg" />
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+				and
+				scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+				leap
+				into electronic typesetting, remaining essentially unchanged.
+			</p>
+		</div>
+		<div class="card">
+			<img src="images/image5.jpg" />
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+				industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+				and
+				scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+				leap
+				into electronic typesetting, remaining essentially unchanged.
+			</p>
+		</div>
+	</div>
+    
+    <form action="https://formspree.io/xwkkjrvb" method="POST" >
+  <ul class="wrapper">
+    <li class="form-row">
+      <label for="name">Name</label>
+      <input name="name" type="text" id="name">
+    </li>
+    <li class="form-row">
+      <label for="townborn">Town you were born in</label>
+      <input name="townborn" type="text" id="townborn">
+    </li>
+    <li class="form-row">
+      <label for="email">Email Address</label>
+      <input name="email" type="email" id="email">
+    </li>
+    <li class="form-row">
+      <input type="submit" value="Send">
+    </li>
+  </ul>
+</form>
+</body>
 </html>
+
+<script>
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
