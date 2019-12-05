@@ -133,7 +133,8 @@ img{
     	flex: 5;  
    }
    .wrapper {
-    padding: 100px;
+	   width: 60%;
+   		padding: 30px;
   }
   }
 
