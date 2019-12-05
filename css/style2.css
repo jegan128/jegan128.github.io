@@ -76,7 +76,6 @@ img{
     list-style-type: none;
     padding: 30px;
     border-radius: 3px;
-	width: 100%;
   }
   .form-row {
     padding: .5em;
@@ -88,7 +87,7 @@ img{
 	flex: 1;
   }
   .form-row > input {
-    flex: 4;
+    flex: 3;
   }
 
   .form-row > input,
@@ -102,7 +101,14 @@ img{
   }
 
 
-@media only screen and  (min-width: 767px) {
+
+  @media screen and (min-width: 500px) {
+   	.form-row {
+    	flex-direction: column;	
+   }
+  }
+  
+  @media only screen and  (min-width: 767px) {
 	.card-list-wrapper{
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -119,17 +125,12 @@ img{
 	}
 }
 
-
-  @media screen and (min-width: 500px) {
-   	.form-row {
-    	flex-direction: column;	
-   }
-  }
  @media screen and (mi-width: 992px) {
    	.form-row > input {
     	flex: 4;  
    }
   }
+  
  @media screen and (min-width: 1200px) {
    	.form-row > input {
     	flex: 5;  
