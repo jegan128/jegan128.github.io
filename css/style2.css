@@ -80,8 +80,10 @@ img{
   .form-row {
     padding: .5em;
 	display: flex;
+	flex-direction: column;	
     justify-content: flex-end;
   }
+
   .form-row > label {
     padding: .5em 1em .5em 0;
 	flex: 1;
@@ -99,20 +101,8 @@ img{
    color: white;
    border: 0;
   }
-
- @media screen and (max-width: 1200px) {
-   	.form-row > input {
-    	flex: 5;  
-   }
-  }
   
-  @media screen and (max-width: 992px) {
-   	.form-row > input {
-    	flex: 4;  
-   }
-  }
-  
-  @media only screen and  (max-width: 767px) {
+  @media only screen and  (min-width: 767px) {
 	.card-list-wrapper{
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -127,15 +117,31 @@ img{
 	img{
 		height:150px;
 	}
+	
+	.form-row{
+		 flex-direction: row;	
+	 }
+	 
+	 .form-row > input {
+    	flex:4;  
+   }
 }
 
-
-  @media screen and (max-width: 500px) {
-   	.form-row {
-    	flex-direction: column;	
+  @media screen and (min-width: 992px) {
+	  .form-row{
+		 flex-direction: row;	
+	 }
+   	.form-row > input {
+    	flex: 5;  
    }
   }
+
   
+
+  
+ 
+
+
  
 
 
