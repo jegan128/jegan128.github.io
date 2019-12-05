@@ -118,13 +118,13 @@ img{
    color: white;
    border: 0;
   }
-  @media screen and (max-width: 500px) {
+  @media screen and (min-width: 500px) {
    	.form-row {
     	flex-direction: column;
 		
    }
   }
- @media screen and (max-width: 992px) {
+ @media screen and (min-width: 992px) {
    	.form-row > input {
     	flex: 4;  
    }
@@ -133,7 +133,7 @@ img{
    		padding: 30px;
   }
   }
- @media screen and (max-width: 1200px) {
+ @media screen and (min-width: 1200px) {
    	.form-row > input {
     	flex: 5;  
    }
