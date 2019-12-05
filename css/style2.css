@@ -127,12 +127,16 @@ img{
    	.form-row > input {
     	flex: 4;  
    }
+   .form {
+	   width: 50%;
+   		padding: 30px;
+  }
   }
  @media screen and (max-width: 1200px) {
    	.form-row > input {
     	flex: 5;  
    }
-   #form {
+   .form {
 	   width: 50%;
    		padding: 30px;
   }
