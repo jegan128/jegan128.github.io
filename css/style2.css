@@ -87,7 +87,7 @@ img{
 	flex: 1;
   }
   .form-row > input {
-    flex: 3;
+    flex: 5;
   }
 
   .form-row > input,
@@ -100,15 +100,19 @@ img{
    border: 0;
   }
 
-
-
-  @media screen and (min-width: 500px) {
-   	.form-row {
-    	flex-direction: column;	
+ @media screen and (max-width: 1200px) {
+   	.form-row > input {
+    	flex: 5;  
    }
   }
   
-  @media only screen and  (min-width: 767px) {
+  @media screen and (max-width: 992px) {
+   	.form-row > input {
+    	flex: 4;  
+   }
+  }
+  
+  @media only screen and  (max-width: 767px) {
 	.card-list-wrapper{
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -125,15 +129,16 @@ img{
 	}
 }
 
- @media screen and (mi-width: 992px) {
-   	.form-row > input {
-    	flex: 4;  
+
+  @media screen and (max-width: 500px) {
+   	.form-row {
+    	flex-direction: column;	
    }
   }
   
- @media screen and (min-width: 1200px) {
-   	.form-row > input {
-    	flex: 5;  
-   }
-  }
+ 
+
+
+  
+
 
