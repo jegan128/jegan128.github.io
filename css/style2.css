@@ -125,19 +125,16 @@ img{
     	flex-direction: column;
 		
    }
+   .wrapper {
+	   width: 100%;
   }
- @media screen and (min-width: 992px) {
-   	.form-row > input {
-    	flex: 4;  
-   }
+  }
+ @media screen and (mi-width: 992px) {
    .wrapper {
 	   width: 50%;
   }
   }
  @media screen and (min-width: 1200px) {
-   	.form-row > input {
-    	flex: 5;  
-   }
    .wrapper {
 	   width: 50%;
   }
